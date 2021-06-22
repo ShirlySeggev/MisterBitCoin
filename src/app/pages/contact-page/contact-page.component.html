@@ -1,0 +1,8 @@
+<div class="contact-page">
+    <div class="addContact">
+        <contact-filter [filterBy]="filterBy" (onFilter)="onSetFilter($event)"></contact-filter>
+        <a routerLink="/contacts/edit"><img title="Add contact" src='./../../assets/img/plus.png' /></a>
+    </div>
+    <router-outlet></router-outlet>
+    <contact-list [contacts]="contacts$|async"></contact-list>
+</div>

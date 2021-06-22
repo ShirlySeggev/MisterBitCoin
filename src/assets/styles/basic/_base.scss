@@ -1,0 +1,60 @@
+@import "../setup/variables";
+@import "../setup/typography";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Poppings, "Segoe UI", sans-serif;
+    font-size: 16px;
+    color: $font;
+}
+
+body {
+    margin: 0;
+    background-color: $clr5;
+    color: $font;
+}
+
+img {
+    width: 100%;
+}
+
+input {
+    margin: 0;
+    font-family: Poppings, "Segoe UI", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppings, "Segoe UI", sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0 0 0 0;
+}
+
+h1 {
+    font-size: rem(36px);
+}
+
+p {
+    margin: 0 0 0rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+

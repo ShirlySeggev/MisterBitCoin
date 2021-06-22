@@ -1,0 +1,15 @@
+.contact-page{
+    .addContact{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-inline: 20px;
+        margin-block: 10px;;
+        img{
+            width: 40px;
+        }
+        contact-filter{
+            width: 100%;
+        }
+    }
+}

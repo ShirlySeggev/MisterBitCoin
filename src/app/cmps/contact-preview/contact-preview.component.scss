@@ -1,0 +1,18 @@
+.contact-preview {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(233, 238, 238);
+    border-radius: 5px;
+    box-shadow: 0 0px 2px 1px #00000038;
+    img {
+        width: 80px;
+    }
+    p{
+        padding-inline-start: 10px;
+        font-size: 20px;
+    }
+    &:hover{
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent, 0 2px 15px #000033;
+    }
+}

@@ -1,0 +1,42 @@
+.contact-details {
+    margin-top: 20px;
+    .contact {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        margin: 0 auto;
+        background-color: rgb(233, 238, 238);
+        border-radius: 5px;
+        box-shadow: 0 0px 2px 1px #00000038;
+        padding: 20px;
+        margin-bottom: 20px;
+        img {
+            height: 200px;
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+        .icon{
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            margin: 0;
+            &.back{
+                top: 10px;
+                left: 10px;
+            }
+            &.pen{
+                top: 10px;
+                right: 10px;
+            }
+            &.trash{
+                bottom: 10px;
+                right: 10px;
+            }
+        }
+    }
+}
+
+

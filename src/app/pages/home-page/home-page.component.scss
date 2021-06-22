@@ -1,0 +1,33 @@
+@import "../../../assets/styles/setup/variables";
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    .data {
+        padding: 50px 20px;
+        line-height: 2;
+        .title {
+            font-size: 20px;
+            span {
+                color: $gold;
+            }
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            img {
+                width: 30px;
+                height: 30px;
+            }
+            p {
+                margin-inline-start: 10px;
+            }
+        }
+        button {
+            margin-block: 10px;
+        }
+    }
+}
